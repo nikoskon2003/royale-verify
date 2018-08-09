@@ -1,2 +1,38 @@
-# royale-verify
-A Discord bot that verifies users based on their Clash Royale account
+# Royale Verify
+-A Discord bot that verifies users based on their Clash Royale account
+# User Commands
+  - `!verify <new, confirm> <Player Tag>`
+    * `!verify new <Player Tag>`
+      * If you are a part of the server's clans (!clans), you will recieve a deck link
+      * You need to play a match with it (1v1, 2v2 or challenge) 
+        * Don't worry, this is your deck with shuffled cards!
+      * After the match wait 1-2 min(s) for the deck to register
+      * Then go back to Discord and type...
+    * `!verify confirm`
+      * If you played the match and waited a bit you will get your rank
+      * Rank is based on your rank in-game (Member, Elder, Co-Leader, Leader)
+      * The rank roles **must** be assigned by a server admin!
+  
+  - `!clans`
+    * Displays the server's clans
+      * Name
+      * Tag
+      * Member count (in case you want to join!)
+  
+  - `!help` (or `!commands`)
+    * Displays the help menu
+    
+  - `!info`
+    * Displays info about the bot
+
+# Admin Commands
+  - All of the above
+  
+  - `!setrole <member, elder, co-leader, leader> <Role Name>`
+    * This command is used to set a role per rank
+    * The Role Name must __NOT__ contain the `@` symbol!
+    * Eg: `!setrole elder Epic Team - Elder`
+  
+  - `!clan <add, remove> <Clan Tag>`
+    * This command is used to add or remove clans from the server's clan list
+    * Eg: `!clan add GGQQUU` and `!clan remove GGQQUU` 

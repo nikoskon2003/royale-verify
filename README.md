@@ -1,5 +1,7 @@
-# Royale Verify
--A Discord bot that verifies users based on their Clash Royale account
+# Royale Verify 
+![Royale Verify](https://i.imgur.com/5s60HnM.png)
+
+A Discord bot that verifies users based on their Clash Royale account
 # User Commands
   - `!verify <new, confirm> <Player Tag>`
     * `!verify new <Player Tag>`

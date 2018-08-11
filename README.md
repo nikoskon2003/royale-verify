@@ -23,6 +23,9 @@ Invite the bot: https://bit.ly/RoyaleVerify
       * Tag
       * Member count (in case you want to join!)
   
+  - `!users`
+    * Displays the server's verified users
+  
   - `!help` (or `!commands`)
     * Displays the help menu
     
@@ -40,3 +43,6 @@ Invite the bot: https://bit.ly/RoyaleVerify
   - `!clan <add, remove> <Clan Tag>`
     * This command is used to add or remove clans from the server's clan list
     * Eg: `!clan add GGQQUU` and `!clan remove GGQQUU` 
+  
+  - `!editusers <add, remove> <amount>`
+    * This command is use to add/remove users from the verified users list, of the server.

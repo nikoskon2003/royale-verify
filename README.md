@@ -25,6 +25,9 @@ Invite the bot: https://bit.ly/RoyaleVerify
   
   - `!users`
     * Displays the server's verified users
+    
+  - `!playdeck`
+    * Displays if you need to play a match to get verified
   
   - `!help` (or `!commands`)
     * Displays the help menu
@@ -46,3 +49,7 @@ Invite the bot: https://bit.ly/RoyaleVerify
   
   - `!editusers <add, remove> <amount>`
     * This command is use to add/remove users from the verified users list, of the server.
+    
+  - `!playdeck <true, false>`
+    * Set if playyers need to play with a deck to get verified
+    * We strongly discourage having playdeck to false!

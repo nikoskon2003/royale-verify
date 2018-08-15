@@ -5,8 +5,8 @@ A Discord bot that verifies users based on their Clash Royale account
 
 Invite the bot: https://bit.ly/RoyaleVerify
 # User Commands
-  - `!verify <new, confirm> <Player Tag>`
-    * `!verify new <Player Tag>`
+  - `!verify <'Player Tag', confirm>`
+    * `!verify <'Player Tag'>`
       * If you are a part of the server's clans (!clans), you will recieve a deck link
       * You need to play a match with it (1v1, 2v2 or challenge) 
         * Don't worry, this is your deck with shuffled cards!
